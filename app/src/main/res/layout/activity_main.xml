@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:id="@+id/lay1"
+                  android:orientation="vertical"
+                  android:layout_weight="2"
+                  android:gravity="center"
+                  android:layout_height="0dp">
+
+        <Button android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/btn1"
+                android:layout_margin="5dp"
+                android:text="Deportes"
+                android:layout_height="wrap_content"/>
+
+        <Button android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/btn2"
+                android:layout_margin="5dp"
+                android:text="Joyeria"
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/btn3"
+                android:layout_margin="5dp"
+                android:text="Tecnología"
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/btn4"
+                android:layout_margin="5dp"
+                android:text="Hogar"
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/btn5"
+                android:layout_margin="5dp"
+                android:text="Calzado"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:id="@+id/lay2"
+                  android:layout_weight="1"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:layout_height="0dp">
+
+    </LinearLayout>
+
+</LinearLayout>

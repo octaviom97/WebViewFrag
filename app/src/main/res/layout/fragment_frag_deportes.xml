@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_gravity="center"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             tools:context=".FragDeportes">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/RV1"
+            android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+   <!--<Button android:layout_width="wrap_content"-->
+           <!--android:id="@+id/btnNike"-->
+           <!--android:text="Nike"-->
+           <!--android:layout_margin="10dp"-->
+           <!--android:layout_gravity="center"-->
+           <!--android:layout_height="wrap_content"/>-->
+    <!--<Button android:layout_width="wrap_content"-->
+            <!--android:id="@+id/btnAdidas"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="Adidas"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--<Button android:layout_width="wrap_content"-->
+            <!--android:id="@+id/btnPuma"-->
+            <!--android:text="Puma"-->
+             <!--android:layout_margin="10dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+</LinearLayout>
