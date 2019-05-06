@@ -14,11 +14,12 @@ class MiAdaptador:RecyclerView.Adapter<MiAdaptador.ViewHolder>() {
         val li = LayoutInflater.from(p0.context)
         val fila = li.inflate(R.layout.recycler_row,p0,false)
         return ViewHolder(fila)
+       
 
     }
 
     override fun getItemCount(): Int {
-        return arr.size
+        return 3
     }
 
     override fun onBindViewHolder(p0: MiAdaptador.ViewHolder, p1: Int) {

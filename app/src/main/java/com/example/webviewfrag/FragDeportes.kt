@@ -1,6 +1,7 @@
 package com.example.webviewfrag
 
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -24,10 +25,38 @@ class FragDeportes : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        RV1.apply {
-            layoutManager = LinearLayoutManager(activity)
-            adapter = MiAdaptador()
+//        RV1.apply {
+//            layoutManager = LinearLayoutManager(activity)
+//            adapter = MiAdaptador()
+//        }
+        btnNike.setOnClickListener {
+            view -> webNike()
         }
+        btnAdidas.setOnClickListener {
+            view -> webAdidas()
+        }
+        btnPuma.setOnClickListener {
+            view -> webPuma()
+        }
+    }
+
+    fun webNike(){
+        val i = Intent(activity,WebView::class.java)
+        val url = "https://www.nike.com/mx/"
+        i.putExtra("url",url)
+        startActivity(i)
+    }
+    fun webAdidas(){
+        val i = Intent(activity,WebView::class.java)
+        val url = "https://www.adidas.mx/"
+        i.putExtra("url",url)
+        startActivity(i)
+    }
+    fun webPuma(){
+        val i = Intent(activity,WebView::class.java)
+        val url = "https://es-us.puma.com/"
+        i.putExtra("url",url)
+        startActivity(i)
     }
 
 }

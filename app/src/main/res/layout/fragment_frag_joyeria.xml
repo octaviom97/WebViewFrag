@@ -12,19 +12,19 @@
     <Button android:layout_width="wrap_content"
             android:id="@+id/btnTanya"
             android:text="TanyMoss"
-            android:layout_margin="10dp"
+            android:layout_margin="2dp"
             android:layout_gravity="center"
             android:layout_height="wrap_content"/>
     <Button android:layout_width="wrap_content"
             android:id="@+id/btnCristal"
             android:layout_gravity="center"
             android:text="CristalJoyas"
-            android:layout_margin="10dp"
+            android:layout_margin="2dp"
             android:layout_height="wrap_content"/>
     <Button android:layout_width="wrap_content"
             android:id="@+id/btnBizzarro"
             android:text="Bizzarro"
-            android:layout_margin="10dp"
+            android:layout_margin="2dp"
             android:layout_gravity="center"
             android:layout_height="wrap_content"/>
 

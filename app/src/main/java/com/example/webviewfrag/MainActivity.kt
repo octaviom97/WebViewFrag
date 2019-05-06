@@ -8,6 +8,7 @@ import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_frag_deportes.*
 import kotlinx.android.synthetic.main.fragment_frag_joyeria.*
+import kotlinx.android.synthetic.main.fragment_frag_uno.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,11 +40,11 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-//    fun iniciarFragUno(fragUno: FragUno){
-//        val a = supportFragmentManager.beginTransaction()
-//        a.replace(R.id.lay1,fragUno)
-//        a.commit()
-//    }
+    fun iniciarFragUno(fragUno: FragUno){
+        val a = supportFragmentManager.beginTransaction()
+        a.replace(R.id.lay1,fragUno)
+        a.commit()
+    }
 
     fun iniciarDeportes(fragDeportes: FragDeportes){
         val a = supportFragmentManager.beginTransaction()

@@ -8,46 +8,50 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <LinearLayout android:layout_width="match_parent"
-                  android:id="@+id/lay1"
-                  android:orientation="vertical"
-                  android:layout_weight="2"
-                  android:gravity="center"
-                  android:layout_height="0dp">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent"
+                      android:id="@+id/lay1"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:layout_height="wrap_content">
 
-        <Button android:layout_width="wrap_content"
-                android:layout_gravity="center"
-                android:id="@+id/btn1"
-                android:layout_margin="5dp"
-                android:text="Deportes"
-                android:layout_height="wrap_content"/>
+            <Button android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btn1"
+                    android:layout_margin="2dp"
+                    android:text="Deportes"
+                    android:layout_height="wrap_content"/>
 
-        <Button android:layout_width="wrap_content"
-                android:layout_gravity="center"
-                android:id="@+id/btn2"
-                android:layout_margin="5dp"
-                android:text="Joyeria"
-                android:layout_height="wrap_content"/>
-        <Button android:layout_width="wrap_content"
-                android:layout_gravity="center"
-                android:id="@+id/btn3"
-                android:layout_margin="5dp"
-                android:text="Tecnología"
-                android:layout_height="wrap_content"/>
-        <Button android:layout_width="wrap_content"
-                android:layout_gravity="center"
-                android:id="@+id/btn4"
-                android:layout_margin="5dp"
-                android:text="Hogar"
-                android:layout_height="wrap_content"/>
-        <Button android:layout_width="wrap_content"
-                android:layout_gravity="center"
-                android:id="@+id/btn5"
-                android:layout_margin="5dp"
-                android:text="Calzado"
-                android:layout_height="wrap_content"/>
+            <Button android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btn2"
+                    android:layout_margin="2dp"
+                    android:text="Joyeria"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btn3"
+                    android:layout_margin="2dp"
+                    android:text="Tecnología"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btn4"
+                    android:layout_margin="2dp"
+                    android:text="Hogar"
+                    android:layout_height="wrap_content"/>
+            <Button android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/btn5"
+                    android:layout_margin="2dp"
+                    android:text="Calzado"
+                    android:layout_height="wrap_content"/>
 
-    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
     <LinearLayout android:layout_width="match_parent"
                   android:id="@+id/lay2"
